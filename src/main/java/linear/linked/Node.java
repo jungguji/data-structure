@@ -10,6 +10,11 @@ public final class Node {
         this.next = null;
     }
 
+    public Node(int value, Node next) {
+        this.value = value;
+        this.next = next;
+    }
+
     public void setValue(int value) {
         this.value = value;
     }
